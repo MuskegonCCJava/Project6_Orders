@@ -1,4 +1,5 @@
 import java.text.DecimalFormat;
+import java.util.Date;
 
 /*UseOrder.java by Kyle Wolff and Brandon VanderMey March 26th 2015*/
 
@@ -9,6 +10,8 @@ public class UseOrder {
 		
 		DecimalFormat df = new DecimalFormat("$#,###.00");
 		
+		Date date = new Date();
+		System.out.println("Orders by Kyle Wolff and Brandon VanderMey on " + date);
 		
 		String name = null;
 		int custNum = 0;
