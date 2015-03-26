@@ -53,6 +53,8 @@ public class UseOrder {
 		stringBuilder2.append("\n| Price: " + df.format(shippingOrder.getunitPrice()) + "|");
 		stringBuilder2.append("\n| Total Price: " + df.format(totalPrice2));
 		System.out.print(stringBuilder2);
+		
+		//END
 
 	}
 
